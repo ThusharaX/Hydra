@@ -1,0 +1,27 @@
+{
+  "name": "hydra",
+  "version": "0.0.1",
+  "description": "User Bot for WhatsApp",
+  "main": "./Hydra/bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThusharaX/Hydra.git"
+  },
+  "keywords": [
+    "AI"
+  ],
+  "author": "ThusharaX",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ThusharaX/Hydra/issues"
+  },
+  "homepage": "https://github.com/ThusharaX/Hydra#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "supervisor": "^0.12.0"
+  }
+}
